@@ -1,0 +1,52 @@
+# Binaries and objects
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+
+# Go specific
+*.o
+*.a
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn
+.pnp.*
+package-lock.json
+yarn.lock
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Dependencies
+vendor/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Temporal specific
+.temporal/
+.temporalite/
+
+# Cache directories
+.cache/
+.parcel-cache/ 

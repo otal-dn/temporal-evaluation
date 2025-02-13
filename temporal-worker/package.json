@@ -1,0 +1,17 @@
+{
+  "name": "temporal-worker",
+  "version": "1.0.0",
+  "main": "worker.ts",
+  "scripts": {
+    "start": "npx ts-node worker.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@temporalio/worker": "^1.8.0",
+    "@temporalio/workflow": "^1.8.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9"
+  }
+}
